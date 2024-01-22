@@ -170,7 +170,7 @@ $PlayWav=New-Object System.Media.SoundPlayer;$PlayWav.SoundLocation="$env:TMP\s.
 }
 
 #----------------------------------------------------------------------------------------------------
-
+$k=[Math]::Ceiling(0/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -lt $k;$i++){$o.SendKeys([char] 175)}
 
 #----------------------------------------------------------------------------------------------------
 
