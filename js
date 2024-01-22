@@ -33,7 +33,7 @@
 
 $RI = Get-Random @(1..3)
 
-$image =  "https://github.com/KennethWIII/jumpscare/blob/main/$RI.png"
+$image =  "https://github.com/KennethWIII/jumpscare/tree/main/pictures/$RI.png"
 
 $i = -join($image,"?dl=1")
 
