@@ -31,7 +31,7 @@
 
 # Download Image; replace link to $image to add your own image
 
-$RI = Get-Random @(1..12)
+$RI = Get-Random @(1..27)
 
 $image =  "https://raw.githubusercontent.com/KennethWIII/jumpscare/main/pictures/$RI.png"
 
